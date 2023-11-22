@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ldc8
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/devfile-sample/devfile-sample-ldc8@sha256:0613bce7fd7c67c5c6e65e17eea69fa35f142a4a35e37eb4b51f25239af69634
         name: my-nodejs
         ports:
         - containerPort: 3001
