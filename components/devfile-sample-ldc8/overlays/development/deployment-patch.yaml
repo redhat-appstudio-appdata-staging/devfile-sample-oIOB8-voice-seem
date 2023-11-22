@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ldc8
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/mleonova-tenant/devfile-sample/devfile-sample-ldc8@sha256:0613bce7fd7c67c5c6e65e17eea69fa35f142a4a35e37eb4b51f25239af69634
+        name: my-nodejs
+        resources: {}
+status: {}
